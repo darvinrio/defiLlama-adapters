@@ -40,6 +40,11 @@ const fixBalancesTokens = {
   ozone: {
     // '0x83048f0bf34feed8ced419455a4320a735a92e9d': { coingeckoId: "ozonechain", decimals: 18 }, // was mapped to wrong chain
   },
+  stellar: {
+    "CDTKPWPLOURQA2SGTKTUQOWRCBZEORB4BWBOMJ3D3ZTQQSGE5F6JBQLV": { coingeckoId: "euro-coin", decimals: 7},
+    "CAUIKL3IYGMERDRUN6YSCLWVAKIFG5Q4YJHUKM4S4NJZQIA3BAS6OJPK": { coingeckoId: "aquarius", decimals: 7},
+
+  },
   shape: {
     [ADDRESSES.optimism.WETH_1]: { coingeckoId: 'ethereum', decimals: 18 },
     '0x48A9B22b80F566E88f0f1DcC90Ea15A8A3bAE8a4': { coingeckoId: 'ethereum', decimals: 18 },
@@ -78,7 +83,7 @@ const fixBalancesTokens = {
   },
   flow: {
     '0xd3bF53DAC106A0290B0483EcBC89d40FcC961f3e': { coingeckoId: 'flow', decimals: 18 },
-    '0x1b97100ea1d7126c4d60027e231ea4cb25314bdb': { coingeckoId: 'ankr-staked-flow', decimals: 18 },
+    '0x1b97100eA1D7126C4d60027e231EA4CB25314bdb': { coingeckoId: 'ankr-staked-flow', decimals: 18 },
     [ADDRESSES.milkomeda.BNB]: { coingeckoId: 'usd-coin', decimals: 6 },
   },
   core: {
@@ -116,7 +121,7 @@ const fixBalancesTokens = {
     [ADDRESSES.optimism.WETH_1]: { coingeckoId: 'weth', decimals: 18 }
   },
   apechain: {
-    '0x48b62137EdfA95a428D35C09E44256a739F6B557': { coingeckoId: 'wrapped-apecoin', decimals: 18 },
+    '0x48b62137EdfA95a428D35C09E44256a739F6B557': { coingeckoId: 'apecoin', decimals: 18 },
     '0xA2235d059F80e176D931Ef76b6C51953Eb3fBEf4': { coingeckoId: 'savings-dai', decimals: 18 },
     '0xcF800F4948D16F23333508191B1B1591daF70438': { coingeckoId: 'staked-ether', decimals: 18 },
   },
@@ -132,6 +137,7 @@ const fixBalancesTokens = {
     '0x000000000000000000000000000000000022d6de': { coingeckoId: 'karate-combat', decimals: 8},
     '0x00000000000000000000000000000000000cba44': { coingeckoId: 'hbarx', decimals: 8 },
     '0x00000000000000000000000000000000000b2ad5': { coingeckoId: 'saucerswap', decimals: 6 },
+    '0x0000000000000000000000000000000000000000': { coingeckoId: 'hedera-hashgraph', decimals: 18 },
     '0x0000000000000000000000000000000000163b5a': { coingeckoId: 'hedera-hashgraph', decimals: 8 },
     '0x000000000000000000000000000000000038b3db': { coingeckoId: 'dovu-2', decimals: 8 },
     '0x00000000000000000000000000000000000ec585': { coingeckoId: 'headstarter', decimals: 8 },
